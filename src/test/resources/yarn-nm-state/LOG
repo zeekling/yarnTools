@@ -1,0 +1,20 @@
+2025/11/23-18:46:59.483210 7ee2e0dff6c0 Recovering log #3
+2025/11/23-18:46:59.483246 7ee2e0dff6c0 Level-0 table #5: started
+2025/11/23-18:46:59.489224 7ee2e0dff6c0 Level-0 table #5: 366 bytes OK
+2025/11/23-18:46:59.499751 7ee2e0dff6c0 Delete type=3 #2
+2025/11/23-18:46:59.499790 7ee2e0dff6c0 Delete type=0 #3
+2025/11/23-19:46:54.384097 7ee252f436c0 Level-0 table #8: started
+2025/11/23-19:46:54.399238 7ee252f436c0 Level-0 table #8: 808754 bytes OK
+2025/11/23-19:46:54.401637 7ee252f436c0 Delete type=0 #6
+2025/11/23-19:46:59.505822 7ee252f436c0 Level-0 table #10: started
+2025/11/23-19:46:59.509235 7ee252f436c0 Level-0 table #10: 2479 bytes OK
+2025/11/23-19:46:59.512470 7ee252f436c0 Delete type=0 #7
+2025/11/23-19:46:59.512555 7ee252f436c0 Manual compaction at level-0 from (begin) .. (end); will stop at 'nm-schema-version' @ 1 : 1
+2025/11/23-19:46:59.512560 7ee252f436c0 Compacting 3@0 + 0@1 files
+2025/11/23-19:46:59.517757 7ee252f436c0 Generated table #11: 767 keys, 110814 bytes
+2025/11/23-19:46:59.517767 7ee252f436c0 Compacted 3@0 + 0@1 files => 110814 bytes
+2025/11/23-19:46:59.527454 7ee252f436c0 compacted to: files[ 0 1 0 0 0 0 0 ]
+2025/11/23-19:46:59.527502 7ee252f436c0 Delete type=2 #5
+2025/11/23-19:46:59.527538 7ee252f436c0 Delete type=2 #10
+2025/11/23-19:46:59.527604 7ee252f436c0 Delete type=2 #8
+2025/11/23-19:46:59.527730 7ee252f436c0 Manual compaction at level-0 from 'nm-schema-version' @ 1 : 1 .. (end); will stop at (end)
