@@ -1,7 +1,5 @@
 package org.hadoop.yarn;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.fusesource.leveldbjni.JniDBFactory;
 import org.hadoop.yarn.iterator.ContainerStateIterator;
 import org.hadoop.yarn.state.RecoveredContainerState;
@@ -42,8 +40,6 @@ public class LevelDBStateStore {
     public static final String NEXT_MASTER_KEY_SUFFIX = "NextMasterKey";
     public static final String NM_TOKENS_KEY_PREFIX = "NMTokens/";
 
-    public static final Logger LOG = LoggerFactory.getLogger(LevelDBStateStore.class);
-
     private final DB db;
 
     public LevelDBStateStore(String storeRoot) {
@@ -53,7 +49,7 @@ public class LevelDBStateStore {
         try {
             db = JniDBFactory.factory.open(dbfile, options);
         }  catch (IOException e) {
-            LOG.error(e.toString());
+            System.err.println(e.getMessage());
             throw new RuntimeException(e);
         }
     }
@@ -63,11 +59,10 @@ public class LevelDBStateStore {
         try (ContainerStateIterator rcsIterator = new ContainerStateIterator(db)) {
             while (rcsIterator.hasNext()) {
                 RecoveredContainerState rcs = rcsIterator.next();
-                LOG.debug("Recovering container with state: {}", rcs);
                 containerStates.add(rcs);
             }
         } catch (IOException e) {
-            LOG.error(e.toString());
+            System.err.println(e.getMessage());
         }
         return containerStates;
     }

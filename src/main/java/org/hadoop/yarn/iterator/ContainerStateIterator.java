@@ -140,9 +140,8 @@ public class ContainerStateIterator extends
                 rcs.setLogDir(asString(entry.getValue()));
             } else if (suffix.startsWith(CONTAINER_ASSIGNED_RESOURCES_KEY_SUFFIX)) {
                 // skip
-                LOG.debug("skip assigned resources");
             } else {
-                LOG.warn("the container " + containerId
+                System.out.println("the container " + containerId
                         + " will be killed because of the unknown key " + key
                         + " during recovery.");
                 rcs.setRecoveryType(RecoveredContainerType.KILL);
