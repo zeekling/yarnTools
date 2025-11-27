@@ -1,6 +1,9 @@
 package org.hadoop.yarn;
 
+import org.apache.hadoop.yarn.proto.YarnServerNodemanagerRecoveryProtos;
+import org.apache.hadoop.yarn.server.nodemanager.recovery.NMStateStoreService;
 import org.fusesource.leveldbjni.JniDBFactory;
+import org.hadoop.yarn.iterator.ApplicationStateIterator;
 import org.hadoop.yarn.iterator.ContainerStateIterator;
 import org.hadoop.yarn.state.RecoveredContainerState;
 import org.iq80.leveldb.DB;
@@ -14,6 +17,7 @@ import java.util.List;
 public class LevelDBStateStore {
 
     public static final String CONTAINERS_KEY_PREFIX = "ContainerManager/containers/";
+    public static final String APPLICATIONS_KEY_PREFIX = "ContainerManager/applications/";
     public static final String LOCALIZATION_STARTED_SUFFIX = "started/";
     public static final String LOCALIZATION_COMPLETED_SUFFIX = "completed/";
     public static final String LOCALIZATION_FILECACHE_SUFFIX = "filecache/";
@@ -65,6 +69,19 @@ public class LevelDBStateStore {
             System.err.println(e.getMessage());
         }
         return containerStates;
+    }
+
+    public List<YarnServerNodemanagerRecoveryProtos.ContainerManagerApplicationProto> getAllApplications() {
+        List<YarnServerNodemanagerRecoveryProtos.ContainerManagerApplicationProto> applicationList = new ArrayList<>();
+        try (ApplicationStateIterator iter = new ApplicationStateIterator(db)) {
+            while (iter.hasNext()) {
+                YarnServerNodemanagerRecoveryProtos.ContainerManagerApplicationProto applicationProto = iter.next();
+                applicationList.add(applicationProto);
+            }
+        } catch (IOException e) {
+            System.err.println(e.getMessage());
+        }
+        return applicationList;
     }
 
 

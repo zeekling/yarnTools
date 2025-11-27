@@ -26,7 +26,11 @@
                 <artifactId>commons-logging</artifactId>
             </exclusion>
         </exclusions>
-    </dependency>
+    </dependency><dependency>
+          <groupId>org.apache.hadoop</groupId>
+          <artifactId>hadoop-yarn-server-nodemanager</artifactId>
+          <version>${hadoop.version}</version>
+      </dependency>
     <dependency>
       <groupId>org.projectlombok</groupId>
       <artifactId>lombok</artifactId>
