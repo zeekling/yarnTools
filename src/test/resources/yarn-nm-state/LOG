@@ -1,0 +1,455 @@
+2025/11/23-18:46:59.483210 7ee2e0dff6c0 Recovering log #3
+2025/11/23-18:46:59.483246 7ee2e0dff6c0 Level-0 table #5: started
+2025/11/23-18:46:59.489224 7ee2e0dff6c0 Level-0 table #5: 366 bytes OK
+2025/11/23-18:46:59.499751 7ee2e0dff6c0 Delete type=3 #2
+2025/11/23-18:46:59.499790 7ee2e0dff6c0 Delete type=0 #3
+2025/11/23-19:46:54.384097 7ee252f436c0 Level-0 table #8: started
+2025/11/23-19:46:54.399238 7ee252f436c0 Level-0 table #8: 808754 bytes OK
+2025/11/23-19:46:54.401637 7ee252f436c0 Delete type=0 #6
+2025/11/23-19:46:59.505822 7ee252f436c0 Level-0 table #10: started
+2025/11/23-19:46:59.509235 7ee252f436c0 Level-0 table #10: 2479 bytes OK
+2025/11/23-19:46:59.512470 7ee252f436c0 Delete type=0 #7
+2025/11/23-19:46:59.512555 7ee252f436c0 Manual compaction at level-0 from (begin) .. (end); will stop at 'nm-schema-version' @ 1 : 1
+2025/11/23-19:46:59.512560 7ee252f436c0 Compacting 3@0 + 0@1 files
+2025/11/23-19:46:59.517757 7ee252f436c0 Generated table #11: 767 keys, 110814 bytes
+2025/11/23-19:46:59.517767 7ee252f436c0 Compacted 3@0 + 0@1 files => 110814 bytes
+2025/11/23-19:46:59.527454 7ee252f436c0 compacted to: files[ 0 1 0 0 0 0 0 ]
+2025/11/23-19:46:59.527502 7ee252f436c0 Delete type=2 #5
+2025/11/23-19:46:59.527538 7ee252f436c0 Delete type=2 #10
+2025/11/23-19:46:59.527604 7ee252f436c0 Delete type=2 #8
+2025/11/23-19:46:59.527730 7ee252f436c0 Manual compaction at level-0 from 'nm-schema-version' @ 1 : 1 .. (end); will stop at (end)
+2025/11/23-20:46:59.512715 7ee252f436c0 Level-0 table #13: started
+2025/11/23-20:46:59.520317 7ee252f436c0 Level-0 table #13: 413069 bytes OK
+2025/11/23-20:46:59.522902 7ee252f436c0 Delete type=0 #9
+2025/11/23-20:46:59.523797 7ee252f436c0 Manual compaction at level-0 from (begin) .. (end); will stop at 'NMTokens/appattempt_1763894824836_0221_000001' @ 30504 : 1
+2025/11/23-20:46:59.523802 7ee252f436c0 Compacting 1@0 + 1@1 files
+2025/11/23-20:46:59.529169 7ee252f436c0 Generated table #14: 759 keys, 108837 bytes
+2025/11/23-20:46:59.529176 7ee252f436c0 Compacted 1@0 + 1@1 files => 108837 bytes
+2025/11/23-20:46:59.531683 7ee252f436c0 compacted to: files[ 0 1 0 0 0 0 0 ]
+2025/11/23-20:46:59.531736 7ee252f436c0 Delete type=2 #13
+2025/11/23-20:46:59.531809 7ee252f436c0 Delete type=2 #11
+2025/11/23-20:46:59.531869 7ee252f436c0 Manual compaction at level-0 from 'NMTokens/appattempt_1763894824836_0221_000001' @ 30504 : 1 .. (end); will stop at (end)
+2025/11/23-21:46:59.509280 7ee252f436c0 Level-0 table #16: started
+2025/11/23-21:46:59.509695 7ee252f436c0 Level-0 table #16: 0 bytes OK
+2025/11/23-21:46:59.512537 7ee252f436c0 Delete type=0 #12
+2025/11/23-21:46:59.512832 7ee252f436c0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/11/23-22:46:59.510829 7ee252f436c0 Level-0 table #18: started
+2025/11/23-22:46:59.511415 7ee252f436c0 Level-0 table #18: 0 bytes OK
+2025/11/23-22:46:59.514481 7ee252f436c0 Delete type=0 #15
+2025/11/23-22:46:59.516453 7ee252f436c0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/11/23-23:46:59.510639 7ee252f436c0 Level-0 table #20: started
+2025/11/23-23:46:59.511111 7ee252f436c0 Level-0 table #20: 0 bytes OK
+2025/11/23-23:46:59.514354 7ee252f436c0 Delete type=0 #17
+2025/11/23-23:46:59.514670 7ee252f436c0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/11/24-00:46:59.512794 7ee252f436c0 Level-0 table #22: started
+2025/11/24-00:46:59.513200 7ee252f436c0 Level-0 table #22: 0 bytes OK
+2025/11/24-00:46:59.516251 7ee252f436c0 Delete type=0 #19
+2025/11/24-00:46:59.516311 7ee252f436c0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/11/24-01:47:04.874599 7ee252f436c0 Level-0 table #24: started
+2025/11/24-01:47:04.875534 7ee252f436c0 Level-0 table #24: 0 bytes OK
+2025/11/24-01:47:04.878965 7ee252f436c0 Delete type=0 #21
+2025/11/24-01:47:04.879037 7ee252f436c0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/11/24-02:47:04.871984 7ee252f436c0 Level-0 table #26: started
+2025/11/24-02:47:04.872511 7ee252f436c0 Level-0 table #26: 0 bytes OK
+2025/11/24-02:47:04.875480 7ee252f436c0 Delete type=0 #23
+2025/11/24-02:47:04.875555 7ee252f436c0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/11/24-03:47:04.874401 7ee252f436c0 Level-0 table #28: started
+2025/11/24-03:47:04.875030 7ee252f436c0 Level-0 table #28: 0 bytes OK
+2025/11/24-03:47:04.878543 7ee252f436c0 Delete type=0 #25
+2025/11/24-03:47:04.879618 7ee252f436c0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/11/24-04:47:04.872414 7ee252f436c0 Level-0 table #30: started
+2025/11/24-04:47:04.873140 7ee252f436c0 Level-0 table #30: 0 bytes OK
+2025/11/24-04:47:04.876193 7ee252f436c0 Delete type=0 #27
+2025/11/24-04:47:04.876250 7ee252f436c0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/11/24-05:47:04.872332 7ee252f436c0 Level-0 table #32: started
+2025/11/24-05:47:04.872753 7ee252f436c0 Level-0 table #32: 0 bytes OK
+2025/11/24-05:47:04.876899 7ee252f436c0 Delete type=0 #29
+2025/11/24-05:47:04.876977 7ee252f436c0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/11/24-06:47:04.872909 7ee252f436c0 Level-0 table #34: started
+2025/11/24-06:47:04.873865 7ee252f436c0 Level-0 table #34: 0 bytes OK
+2025/11/24-06:47:04.877623 7ee252f436c0 Delete type=0 #31
+2025/11/24-06:47:04.877720 7ee252f436c0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/11/24-07:47:04.876425 7ee252f436c0 Level-0 table #36: started
+2025/11/24-07:47:04.877363 7ee252f436c0 Level-0 table #36: 0 bytes OK
+2025/11/24-07:47:04.880981 7ee252f436c0 Delete type=0 #33
+2025/11/24-07:47:04.881072 7ee252f436c0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/11/24-08:47:04.873372 7ee252f436c0 Level-0 table #38: started
+2025/11/24-08:47:04.873863 7ee252f436c0 Level-0 table #38: 0 bytes OK
+2025/11/24-08:47:04.876591 7ee252f436c0 Delete type=0 #35
+2025/11/24-08:47:04.876675 7ee252f436c0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/11/24-09:47:04.874151 7ee252f436c0 Level-0 table #40: started
+2025/11/24-09:47:04.874601 7ee252f436c0 Level-0 table #40: 0 bytes OK
+2025/11/24-09:47:04.877385 7ee252f436c0 Delete type=0 #37
+2025/11/24-09:47:04.877442 7ee252f436c0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/11/24-10:47:04.875184 7ee252f436c0 Level-0 table #42: started
+2025/11/24-10:47:04.876139 7ee252f436c0 Level-0 table #42: 0 bytes OK
+2025/11/24-10:47:04.880514 7ee252f436c0 Delete type=0 #39
+2025/11/24-10:47:04.880879 7ee252f436c0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/11/24-11:47:04.875724 7ee252f436c0 Level-0 table #44: started
+2025/11/24-11:47:04.876693 7ee252f436c0 Level-0 table #44: 0 bytes OK
+2025/11/24-11:47:04.880413 7ee252f436c0 Delete type=0 #41
+2025/11/24-11:47:04.882824 7ee252f436c0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/11/24-12:47:04.876320 7ee252f436c0 Level-0 table #46: started
+2025/11/24-12:47:04.876818 7ee252f436c0 Level-0 table #46: 0 bytes OK
+2025/11/24-12:47:04.879581 7ee252f436c0 Delete type=0 #43
+2025/11/24-12:47:04.879641 7ee252f436c0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/11/24-13:47:04.877541 7ee252f436c0 Level-0 table #48: started
+2025/11/24-13:47:04.878545 7ee252f436c0 Level-0 table #48: 0 bytes OK
+2025/11/24-13:47:04.882391 7ee252f436c0 Delete type=0 #45
+2025/11/24-13:47:04.882479 7ee252f436c0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/11/24-14:47:04.880457 7ee252f436c0 Level-0 table #50: started
+2025/11/24-14:47:04.881413 7ee252f436c0 Level-0 table #50: 0 bytes OK
+2025/11/24-14:47:04.885291 7ee252f436c0 Delete type=0 #47
+2025/11/24-14:47:04.885647 7ee252f436c0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/11/24-15:47:04.877368 7ee252f436c0 Level-0 table #52: started
+2025/11/24-15:47:04.877905 7ee252f436c0 Level-0 table #52: 0 bytes OK
+2025/11/24-15:47:04.881065 7ee252f436c0 Delete type=0 #49
+2025/11/24-15:47:04.881418 7ee252f436c0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/11/24-16:47:04.878021 7ee252f436c0 Level-0 table #54: started
+2025/11/24-16:47:04.878539 7ee252f436c0 Level-0 table #54: 0 bytes OK
+2025/11/24-16:47:04.881405 7ee252f436c0 Delete type=0 #51
+2025/11/24-16:47:04.881470 7ee252f436c0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/11/24-17:47:04.880040 7ee252f436c0 Level-0 table #56: started
+2025/11/24-17:47:04.880634 7ee252f436c0 Level-0 table #56: 0 bytes OK
+2025/11/24-17:47:04.886808 7ee252f436c0 Delete type=0 #53
+2025/11/24-17:47:04.886897 7ee252f436c0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/11/24-18:47:04.880961 7ee252f436c0 Level-0 table #58: started
+2025/11/24-18:47:04.881898 7ee252f436c0 Level-0 table #58: 0 bytes OK
+2025/11/24-18:47:04.885542 7ee252f436c0 Delete type=0 #55
+2025/11/24-18:47:04.885962 7ee252f436c0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/11/24-19:47:04.878888 7ee252f436c0 Level-0 table #60: started
+2025/11/24-19:47:04.884208 7ee252f436c0 Level-0 table #60: 257 bytes OK
+2025/11/24-19:47:04.887813 7ee252f436c0 Delete type=0 #57
+2025/11/24-19:47:04.888262 7ee252f436c0 Manual compaction at level-0 from (begin) .. (end); will stop at 'NMTokens/PreviousMasterKey' @ 30653 : 1
+2025/11/24-19:47:04.888268 7ee252f436c0 Compacting 1@0 + 1@1 files
+2025/11/24-19:47:04.893471 7ee252f436c0 Generated table #61: 761 keys, 108981 bytes
+2025/11/24-19:47:04.893479 7ee252f436c0 Compacted 1@0 + 1@1 files => 108981 bytes
+2025/11/24-19:47:04.896440 7ee252f436c0 compacted to: files[ 0 1 0 0 0 0 0 ]
+2025/11/24-19:47:04.896487 7ee252f436c0 Delete type=2 #14
+2025/11/24-19:47:04.896694 7ee252f436c0 Delete type=2 #60
+2025/11/24-19:47:04.896761 7ee252f436c0 Manual compaction at level-0 from 'NMTokens/PreviousMasterKey' @ 30653 : 1 .. (end); will stop at (end)
+2025/11/24-20:47:04.876855 7ee252f436c0 Level-0 table #63: started
+2025/11/24-20:47:04.877325 7ee252f436c0 Level-0 table #63: 0 bytes OK
+2025/11/24-20:47:04.881419 7ee252f436c0 Delete type=0 #59
+2025/11/24-20:47:04.881714 7ee252f436c0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/11/24-21:47:04.880888 7ee252f436c0 Level-0 table #65: started
+2025/11/24-21:47:04.881715 7ee252f436c0 Level-0 table #65: 0 bytes OK
+2025/11/24-21:47:04.885479 7ee252f436c0 Delete type=0 #62
+2025/11/24-21:47:04.885560 7ee252f436c0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/11/24-22:47:04.882929 7ee252f436c0 Level-0 table #67: started
+2025/11/24-22:47:04.883292 7ee252f436c0 Level-0 table #67: 0 bytes OK
+2025/11/24-22:47:04.885815 7ee252f436c0 Delete type=0 #64
+2025/11/24-22:47:04.885890 7ee252f436c0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/11/24-23:47:04.880048 7ee252f436c0 Level-0 table #69: started
+2025/11/24-23:47:04.881175 7ee252f436c0 Level-0 table #69: 0 bytes OK
+2025/11/24-23:47:04.885436 7ee252f436c0 Delete type=0 #66
+2025/11/24-23:47:04.886741 7ee252f436c0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/11/25-00:47:04.882202 7ee252f436c0 Level-0 table #71: started
+2025/11/25-00:47:04.882607 7ee252f436c0 Level-0 table #71: 0 bytes OK
+2025/11/25-00:47:04.885383 7ee252f436c0 Delete type=0 #68
+2025/11/25-00:47:04.886106 7ee252f436c0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/11/25-01:47:10.211073 7ee252f436c0 Level-0 table #73: started
+2025/11/25-01:47:10.211580 7ee252f436c0 Level-0 table #73: 0 bytes OK
+2025/11/25-01:47:10.215464 7ee252f436c0 Delete type=0 #70
+2025/11/25-01:47:10.215532 7ee252f436c0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/11/25-02:47:10.210261 7ee252f436c0 Level-0 table #75: started
+2025/11/25-02:47:10.211219 7ee252f436c0 Level-0 table #75: 0 bytes OK
+2025/11/25-02:47:10.216917 7ee252f436c0 Delete type=0 #72
+2025/11/25-02:47:10.217052 7ee252f436c0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/11/25-03:47:10.209995 7ee252f436c0 Level-0 table #77: started
+2025/11/25-03:47:10.210685 7ee252f436c0 Level-0 table #77: 0 bytes OK
+2025/11/25-03:47:10.214884 7ee252f436c0 Delete type=0 #74
+2025/11/25-03:47:10.215304 7ee252f436c0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/11/25-04:47:10.212126 7ee252f436c0 Level-0 table #79: started
+2025/11/25-04:47:10.213104 7ee252f436c0 Level-0 table #79: 0 bytes OK
+2025/11/25-04:47:10.217999 7ee252f436c0 Delete type=0 #76
+2025/11/25-04:47:10.218126 7ee252f436c0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/11/25-05:47:10.209980 7ee252f436c0 Level-0 table #81: started
+2025/11/25-05:47:10.210450 7ee252f436c0 Level-0 table #81: 0 bytes OK
+2025/11/25-05:47:10.212936 7ee252f436c0 Delete type=0 #78
+2025/11/25-05:47:10.213212 7ee252f436c0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/11/25-06:47:10.209714 7ee252f436c0 Level-0 table #83: started
+2025/11/25-06:47:10.210268 7ee252f436c0 Level-0 table #83: 0 bytes OK
+2025/11/25-06:47:10.213327 7ee252f436c0 Delete type=0 #80
+2025/11/25-06:47:10.213392 7ee252f436c0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/11/25-07:47:10.210302 7ee252f436c0 Level-0 table #85: started
+2025/11/25-07:47:10.211272 7ee252f436c0 Level-0 table #85: 0 bytes OK
+2025/11/25-07:47:10.214832 7ee252f436c0 Delete type=0 #82
+2025/11/25-07:47:10.214903 7ee252f436c0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/11/25-08:47:10.212206 7ee252f436c0 Level-0 table #87: started
+2025/11/25-08:47:10.212527 7ee252f436c0 Level-0 table #87: 0 bytes OK
+2025/11/25-08:47:10.215551 7ee252f436c0 Delete type=0 #84
+2025/11/25-08:47:10.215612 7ee252f436c0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/11/25-09:47:10.213499 7ee252f436c0 Level-0 table #89: started
+2025/11/25-09:47:10.214181 7ee252f436c0 Level-0 table #89: 0 bytes OK
+2025/11/25-09:47:10.219794 7ee252f436c0 Delete type=0 #86
+2025/11/25-09:47:10.219876 7ee252f436c0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/11/25-10:47:10.212945 7ee252f436c0 Level-0 table #91: started
+2025/11/25-10:47:10.213758 7ee252f436c0 Level-0 table #91: 0 bytes OK
+2025/11/25-10:47:10.217934 7ee252f436c0 Delete type=0 #88
+2025/11/25-10:47:10.218351 7ee252f436c0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/11/25-11:47:10.215353 7ee252f436c0 Level-0 table #93: started
+2025/11/25-11:47:10.216309 7ee252f436c0 Level-0 table #93: 0 bytes OK
+2025/11/25-11:47:10.221771 7ee252f436c0 Delete type=0 #90
+2025/11/25-11:47:10.221853 7ee252f436c0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/11/25-12:47:10.213769 7ee252f436c0 Level-0 table #95: started
+2025/11/25-12:47:10.214386 7ee252f436c0 Level-0 table #95: 0 bytes OK
+2025/11/25-12:47:10.217726 7ee252f436c0 Delete type=0 #92
+2025/11/25-12:47:10.217785 7ee252f436c0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/11/25-13:47:10.216871 7ee252f436c0 Level-0 table #97: started
+2025/11/25-13:47:10.217813 7ee252f436c0 Level-0 table #97: 0 bytes OK
+2025/11/25-13:47:10.221902 7ee252f436c0 Delete type=0 #94
+2025/11/25-13:47:10.222003 7ee252f436c0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/11/25-14:47:10.216940 7ee252f436c0 Level-0 table #99: started
+2025/11/25-14:47:10.217906 7ee252f436c0 Level-0 table #99: 0 bytes OK
+2025/11/25-14:47:10.221840 7ee252f436c0 Delete type=0 #96
+2025/11/25-14:47:10.222892 7ee252f436c0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/11/25-15:47:10.215386 7ee252f436c0 Level-0 table #101: started
+2025/11/25-15:47:10.215696 7ee252f436c0 Level-0 table #101: 0 bytes OK
+2025/11/25-15:47:10.218647 7ee252f436c0 Delete type=0 #98
+2025/11/25-15:47:10.219216 7ee252f436c0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/11/25-16:47:10.215953 7ee252f436c0 Level-0 table #103: started
+2025/11/25-16:47:10.216501 7ee252f436c0 Level-0 table #103: 0 bytes OK
+2025/11/25-16:47:10.219762 7ee252f436c0 Delete type=0 #100
+2025/11/25-16:47:10.220333 7ee252f436c0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/11/25-17:47:10.216393 7ee252f436c0 Level-0 table #105: started
+2025/11/25-17:47:10.217175 7ee252f436c0 Level-0 table #105: 0 bytes OK
+2025/11/25-17:47:10.220653 7ee252f436c0 Delete type=0 #102
+2025/11/25-17:47:10.221165 7ee252f436c0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/11/25-18:47:10.217672 7ee252f436c0 Level-0 table #107: started
+2025/11/25-18:47:10.218553 7ee252f436c0 Level-0 table #107: 0 bytes OK
+2025/11/25-18:47:10.223794 7ee252f436c0 Delete type=0 #104
+2025/11/25-18:47:10.223871 7ee252f436c0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/11/25-19:47:10.218377 7ee252f436c0 Level-0 table #109: started
+2025/11/25-19:47:10.221457 7ee252f436c0 Level-0 table #109: 257 bytes OK
+2025/11/25-19:47:10.223786 7ee252f436c0 Delete type=0 #106
+2025/11/25-19:47:10.224043 7ee252f436c0 Manual compaction at level-0 from (begin) .. (end); will stop at 'NMTokens/PreviousMasterKey' @ 30657 : 1
+2025/11/25-19:47:10.224050 7ee252f436c0 Compacting 1@0 + 1@1 files
+2025/11/25-19:47:10.228158 7ee252f436c0 Generated table #110: 761 keys, 108981 bytes
+2025/11/25-19:47:10.228166 7ee252f436c0 Compacted 1@0 + 1@1 files => 108981 bytes
+2025/11/25-19:47:10.230323 7ee252f436c0 compacted to: files[ 0 1 0 0 0 0 0 ]
+2025/11/25-19:47:10.230367 7ee252f436c0 Delete type=2 #61
+2025/11/25-19:47:10.230404 7ee252f436c0 Delete type=2 #109
+2025/11/25-19:47:10.230465 7ee252f436c0 Manual compaction at level-0 from 'NMTokens/PreviousMasterKey' @ 30657 : 1 .. (end); will stop at (end)
+2025/11/25-20:47:10.218919 7ee252f436c0 Level-0 table #112: started
+2025/11/25-20:47:10.219757 7ee252f436c0 Level-0 table #112: 0 bytes OK
+2025/11/25-20:47:10.222733 7ee252f436c0 Delete type=0 #108
+2025/11/25-20:47:10.222816 7ee252f436c0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/11/25-21:47:10.215313 7ee252f436c0 Level-0 table #114: started
+2025/11/25-21:47:10.217574 7ee252f436c0 Level-0 table #114: 0 bytes OK
+2025/11/25-21:47:10.220298 7ee252f436c0 Delete type=0 #111
+2025/11/25-21:47:10.220364 7ee252f436c0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/11/25-22:47:10.219763 7ee252f436c0 Level-0 table #116: started
+2025/11/25-22:47:10.220505 7ee252f436c0 Level-0 table #116: 0 bytes OK
+2025/11/25-22:47:10.223107 7ee252f436c0 Delete type=0 #113
+2025/11/25-22:47:10.223174 7ee252f436c0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/11/25-23:47:10.219992 7ee252f436c0 Level-0 table #118: started
+2025/11/25-23:47:10.220861 7ee252f436c0 Level-0 table #118: 0 bytes OK
+2025/11/25-23:47:10.224505 7ee252f436c0 Delete type=0 #115
+2025/11/25-23:47:10.224568 7ee252f436c0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/11/26-00:47:10.218125 7ee252f436c0 Level-0 table #120: started
+2025/11/26-00:47:10.219211 7ee252f436c0 Level-0 table #120: 0 bytes OK
+2025/11/26-00:47:10.224564 7ee252f436c0 Delete type=0 #117
+2025/11/26-00:47:10.224626 7ee252f436c0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/11/26-01:47:15.546593 7ee252f436c0 Level-0 table #122: started
+2025/11/26-01:47:15.548162 7ee252f436c0 Level-0 table #122: 0 bytes OK
+2025/11/26-01:47:15.552422 7ee252f436c0 Delete type=0 #119
+2025/11/26-01:47:15.552498 7ee252f436c0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/11/26-02:47:15.544783 7ee252f436c0 Level-0 table #124: started
+2025/11/26-02:47:15.545386 7ee252f436c0 Level-0 table #124: 0 bytes OK
+2025/11/26-02:47:15.548719 7ee252f436c0 Delete type=0 #121
+2025/11/26-02:47:15.548782 7ee252f436c0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/11/26-03:47:15.549735 7ee252f436c0 Level-0 table #126: started
+2025/11/26-03:47:15.551626 7ee252f436c0 Level-0 table #126: 0 bytes OK
+2025/11/26-03:47:15.555557 7ee252f436c0 Delete type=0 #123
+2025/11/26-03:47:15.555635 7ee252f436c0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/11/26-04:47:15.550475 7ee252f436c0 Level-0 table #128: started
+2025/11/26-04:47:15.551951 7ee252f436c0 Level-0 table #128: 0 bytes OK
+2025/11/26-04:47:15.557324 7ee252f436c0 Delete type=0 #125
+2025/11/26-04:47:15.557412 7ee252f436c0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/11/26-05:47:15.548021 7ee252f436c0 Level-0 table #130: started
+2025/11/26-05:47:15.549322 7ee252f436c0 Level-0 table #130: 0 bytes OK
+2025/11/26-05:47:15.552386 7ee252f436c0 Delete type=0 #127
+2025/11/26-05:47:15.552714 7ee252f436c0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/11/26-06:47:15.549158 7ee252f436c0 Level-0 table #132: started
+2025/11/26-06:47:15.550363 7ee252f436c0 Level-0 table #132: 0 bytes OK
+2025/11/26-06:47:15.553358 7ee252f436c0 Delete type=0 #129
+2025/11/26-06:47:15.553656 7ee252f436c0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/11/26-07:47:15.549617 7ee252f436c0 Level-0 table #134: started
+2025/11/26-07:47:15.551327 7ee252f436c0 Level-0 table #134: 0 bytes OK
+2025/11/26-07:47:15.556290 7ee252f436c0 Delete type=0 #131
+2025/11/26-07:47:15.556370 7ee252f436c0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/11/26-08:47:15.552322 7ee252f436c0 Level-0 table #136: started
+2025/11/26-08:47:15.554192 7ee252f436c0 Level-0 table #136: 0 bytes OK
+2025/11/26-08:47:15.559567 7ee252f436c0 Delete type=0 #133
+2025/11/26-08:47:15.559642 7ee252f436c0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/11/26-09:47:15.550535 7ee252f436c0 Level-0 table #138: started
+2025/11/26-09:47:15.552212 7ee252f436c0 Level-0 table #138: 0 bytes OK
+2025/11/26-09:47:15.557326 7ee252f436c0 Delete type=0 #135
+2025/11/26-09:47:15.557410 7ee252f436c0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/11/26-10:47:15.553299 7ee252f436c0 Level-0 table #140: started
+2025/11/26-10:47:15.554735 7ee252f436c0 Level-0 table #140: 0 bytes OK
+2025/11/26-10:47:15.559557 7ee252f436c0 Delete type=0 #137
+2025/11/26-10:47:15.559638 7ee252f436c0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/11/26-11:47:15.553600 7ee252f436c0 Level-0 table #142: started
+2025/11/26-11:47:15.555079 7ee252f436c0 Level-0 table #142: 0 bytes OK
+2025/11/26-11:47:15.559058 7ee252f436c0 Delete type=0 #139
+2025/11/26-11:47:15.559153 7ee252f436c0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/11/26-12:47:15.554383 7ee252f436c0 Level-0 table #144: started
+2025/11/26-12:47:15.555151 7ee252f436c0 Level-0 table #144: 0 bytes OK
+2025/11/26-12:47:15.558171 7ee252f436c0 Delete type=0 #141
+2025/11/26-12:47:15.558662 7ee252f436c0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/11/26-13:47:15.554698 7ee252f436c0 Level-0 table #146: started
+2025/11/26-13:47:15.556475 7ee252f436c0 Level-0 table #146: 0 bytes OK
+2025/11/26-13:47:15.561546 7ee252f436c0 Delete type=0 #143
+2025/11/26-13:47:15.561629 7ee252f436c0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/11/26-14:47:15.555605 7ee252f436c0 Level-0 table #148: started
+2025/11/26-14:47:15.557377 7ee252f436c0 Level-0 table #148: 0 bytes OK
+2025/11/26-14:47:15.561872 7ee252f436c0 Delete type=0 #145
+2025/11/26-14:47:15.561958 7ee252f436c0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/11/26-15:47:15.555798 7ee252f436c0 Level-0 table #150: started
+2025/11/26-15:47:15.556820 7ee252f436c0 Level-0 table #150: 0 bytes OK
+2025/11/26-15:47:15.560501 7ee252f436c0 Delete type=0 #147
+2025/11/26-15:47:15.560584 7ee252f436c0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/11/26-16:47:15.553901 7ee252f436c0 Level-0 table #152: started
+2025/11/26-16:47:15.554755 7ee252f436c0 Level-0 table #152: 0 bytes OK
+2025/11/26-16:47:15.557823 7ee252f436c0 Delete type=0 #149
+2025/11/26-16:47:15.557885 7ee252f436c0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/11/26-17:47:15.556741 7ee252f436c0 Level-0 table #154: started
+2025/11/26-17:47:15.558782 7ee252f436c0 Level-0 table #154: 0 bytes OK
+2025/11/26-17:47:15.563188 7ee252f436c0 Delete type=0 #151
+2025/11/26-17:47:15.563267 7ee252f436c0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/11/26-18:47:15.552363 7ee252f436c0 Level-0 table #156: started
+2025/11/26-18:47:15.555426 7ee252f436c0 Level-0 table #156: 256 bytes OK
+2025/11/26-18:47:15.558373 7ee252f436c0 Delete type=0 #153
+2025/11/26-18:47:15.558433 7ee252f436c0 Manual compaction at level-0 from (begin) .. (end); will stop at 'NMTokens/PreviousMasterKey' @ 30661 : 1
+2025/11/26-18:47:15.558436 7ee252f436c0 Compacting 1@0 + 1@1 files
+2025/11/26-18:47:15.562411 7ee252f436c0 Generated table #157: 761 keys, 108981 bytes
+2025/11/26-18:47:15.562418 7ee252f436c0 Compacted 1@0 + 1@1 files => 108981 bytes
+2025/11/26-18:47:15.564828 7ee252f436c0 compacted to: files[ 0 1 0 0 0 0 0 ]
+2025/11/26-18:47:15.564859 7ee252f436c0 Delete type=2 #156
+2025/11/26-18:47:15.564894 7ee252f436c0 Delete type=2 #110
+2025/11/26-18:47:15.564956 7ee252f436c0 Manual compaction at level-0 from 'NMTokens/PreviousMasterKey' @ 30661 : 1 .. (end); will stop at (end)
+2025/11/26-19:47:15.555502 7ee252f436c0 Level-0 table #159: started
+2025/11/26-19:47:15.556974 7ee252f436c0 Level-0 table #159: 0 bytes OK
+2025/11/26-19:47:15.562645 7ee252f436c0 Delete type=0 #155
+2025/11/26-19:47:15.562714 7ee252f436c0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/11/26-20:47:15.554776 7ee252f436c0 Level-0 table #161: started
+2025/11/26-20:47:15.555570 7ee252f436c0 Level-0 table #161: 0 bytes OK
+2025/11/26-20:47:15.558614 7ee252f436c0 Delete type=0 #158
+2025/11/26-20:47:15.558674 7ee252f436c0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/11/26-21:47:15.557029 7ee252f436c0 Level-0 table #163: started
+2025/11/26-21:47:15.557855 7ee252f436c0 Level-0 table #163: 0 bytes OK
+2025/11/26-21:47:15.560677 7ee252f436c0 Delete type=0 #160
+2025/11/26-21:47:15.560746 7ee252f436c0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/11/26-22:47:15.556121 7ee252f436c0 Level-0 table #165: started
+2025/11/26-22:47:15.557470 7ee252f436c0 Level-0 table #165: 0 bytes OK
+2025/11/26-22:47:15.562051 7ee252f436c0 Delete type=0 #162
+2025/11/26-22:47:15.562123 7ee252f436c0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/11/26-23:47:15.555821 7ee252f436c0 Level-0 table #167: started
+2025/11/26-23:47:15.556582 7ee252f436c0 Level-0 table #167: 0 bytes OK
+2025/11/26-23:47:15.560023 7ee252f436c0 Delete type=0 #164
+2025/11/26-23:47:15.560082 7ee252f436c0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/11/27-00:47:15.558151 7ee252f436c0 Level-0 table #169: started
+2025/11/27-00:47:15.558921 7ee252f436c0 Level-0 table #169: 0 bytes OK
+2025/11/27-00:47:15.561843 7ee252f436c0 Delete type=0 #166
+2025/11/27-00:47:15.561895 7ee252f436c0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/11/27-01:47:20.880831 7ee252f436c0 Level-0 table #171: started
+2025/11/27-01:47:20.881510 7ee252f436c0 Level-0 table #171: 0 bytes OK
+2025/11/27-01:47:20.884283 7ee252f436c0 Delete type=0 #168
+2025/11/27-01:47:20.884344 7ee252f436c0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/11/27-02:47:20.884197 7ee252f436c0 Level-0 table #173: started
+2025/11/27-02:47:20.885804 7ee252f436c0 Level-0 table #173: 0 bytes OK
+2025/11/27-02:47:20.891018 7ee252f436c0 Delete type=0 #170
+2025/11/27-02:47:20.891098 7ee252f436c0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/11/27-03:47:20.880965 7ee252f436c0 Level-0 table #175: started
+2025/11/27-03:47:20.881899 7ee252f436c0 Level-0 table #175: 0 bytes OK
+2025/11/27-03:47:20.885532 7ee252f436c0 Delete type=0 #172
+2025/11/27-03:47:20.885589 7ee252f436c0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/11/27-04:47:20.884958 7ee252f436c0 Level-0 table #177: started
+2025/11/27-04:47:20.886683 7ee252f436c0 Level-0 table #177: 0 bytes OK
+2025/11/27-04:47:20.890066 7ee252f436c0 Delete type=0 #174
+2025/11/27-04:47:20.890145 7ee252f436c0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/11/27-05:47:20.883845 7ee252f436c0 Level-0 table #179: started
+2025/11/27-05:47:20.884988 7ee252f436c0 Level-0 table #179: 0 bytes OK
+2025/11/27-05:47:20.887725 7ee252f436c0 Delete type=0 #176
+2025/11/27-05:47:20.887783 7ee252f436c0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/11/27-06:47:20.886519 7ee252f436c0 Level-0 table #181: started
+2025/11/27-06:47:20.887138 7ee252f436c0 Level-0 table #181: 0 bytes OK
+2025/11/27-06:47:20.890063 7ee252f436c0 Delete type=0 #178
+2025/11/27-06:47:20.890122 7ee252f436c0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/11/27-07:47:20.882373 7ee252f436c0 Level-0 table #183: started
+2025/11/27-07:47:20.883234 7ee252f436c0 Level-0 table #183: 0 bytes OK
+2025/11/27-07:47:20.887131 7ee252f436c0 Delete type=0 #180
+2025/11/27-07:47:20.887222 7ee252f436c0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/11/27-08:47:20.882491 7ee252f436c0 Level-0 table #185: started
+2025/11/27-08:47:20.883329 7ee252f436c0 Level-0 table #185: 0 bytes OK
+2025/11/27-08:47:20.886535 7ee252f436c0 Delete type=0 #182
+2025/11/27-08:47:20.886612 7ee252f436c0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/11/27-09:47:20.884823 7ee252f436c0 Level-0 table #187: started
+2025/11/27-09:47:20.886171 7ee252f436c0 Level-0 table #187: 0 bytes OK
+2025/11/27-09:47:20.890932 7ee252f436c0 Delete type=0 #184
+2025/11/27-09:47:20.891009 7ee252f436c0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/11/27-10:47:20.886904 7ee252f436c0 Level-0 table #189: started
+2025/11/27-10:47:20.888436 7ee252f436c0 Level-0 table #189: 0 bytes OK
+2025/11/27-10:47:20.893058 7ee252f436c0 Delete type=0 #186
+2025/11/27-10:47:20.893227 7ee252f436c0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/11/27-11:47:20.884728 7ee252f436c0 Level-0 table #191: started
+2025/11/27-11:47:20.886633 7ee252f436c0 Level-0 table #191: 0 bytes OK
+2025/11/27-11:47:20.890585 7ee252f436c0 Delete type=0 #188
+2025/11/27-11:47:20.890669 7ee252f436c0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/11/27-12:47:20.887142 7ee252f436c0 Level-0 table #193: started
+2025/11/27-12:47:20.887758 7ee252f436c0 Level-0 table #193: 0 bytes OK
+2025/11/27-12:47:20.890309 7ee252f436c0 Delete type=0 #190
+2025/11/27-12:47:20.890368 7ee252f436c0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/11/27-13:47:20.887118 7ee252f436c0 Level-0 table #195: started
+2025/11/27-13:47:20.887710 7ee252f436c0 Level-0 table #195: 0 bytes OK
+2025/11/27-13:47:20.890328 7ee252f436c0 Delete type=0 #192
+2025/11/27-13:47:20.890382 7ee252f436c0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/11/27-14:47:20.885096 7ee252f436c0 Level-0 table #197: started
+2025/11/27-14:47:20.886592 7ee252f436c0 Level-0 table #197: 0 bytes OK
+2025/11/27-14:47:20.891438 7ee252f436c0 Delete type=0 #194
+2025/11/27-14:47:20.891530 7ee252f436c0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/11/27-15:47:20.882924 7ee252f436c0 Level-0 table #199: started
+2025/11/27-15:47:20.884426 7ee252f436c0 Level-0 table #199: 0 bytes OK
+2025/11/27-15:47:20.888984 7ee252f436c0 Delete type=0 #196
+2025/11/27-15:47:20.889070 7ee252f436c0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/11/27-16:47:20.882221 7ee252f436c0 Level-0 table #201: started
+2025/11/27-16:47:20.882756 7ee252f436c0 Level-0 table #201: 0 bytes OK
+2025/11/27-16:47:20.886041 7ee252f436c0 Delete type=0 #198
+2025/11/27-16:47:20.886472 7ee252f436c0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/11/27-17:47:20.885264 7ee252f436c0 Level-0 table #203: started
+2025/11/27-17:47:20.886880 7ee252f436c0 Level-0 table #203: 0 bytes OK
+2025/11/27-17:47:20.891219 7ee252f436c0 Delete type=0 #200
+2025/11/27-17:47:20.891296 7ee252f436c0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/11/27-18:47:20.885248 7ee252f436c0 Level-0 table #205: started
+2025/11/27-18:47:20.889633 7ee252f436c0 Level-0 table #205: 256 bytes OK
+2025/11/27-18:47:20.892476 7ee252f436c0 Delete type=0 #202
+2025/11/27-18:47:20.892561 7ee252f436c0 Manual compaction at level-0 from (begin) .. (end); will stop at 'NMTokens/PreviousMasterKey' @ 30665 : 1
+2025/11/27-18:47:20.892564 7ee252f436c0 Compacting 1@0 + 1@1 files
+2025/11/27-18:47:20.897664 7ee252f436c0 Generated table #206: 761 keys, 108981 bytes
+2025/11/27-18:47:20.897681 7ee252f436c0 Compacted 1@0 + 1@1 files => 108981 bytes
+2025/11/27-18:47:20.900274 7ee252f436c0 compacted to: files[ 0 1 0 0 0 0 0 ]
+2025/11/27-18:47:20.900313 7ee252f436c0 Delete type=2 #205
+2025/11/27-18:47:20.900366 7ee252f436c0 Delete type=2 #157
+2025/11/27-18:47:20.900435 7ee252f436c0 Manual compaction at level-0 from 'NMTokens/PreviousMasterKey' @ 30665 : 1 .. (end); will stop at (end)
+2025/11/27-19:47:20.885490 7ee252f436c0 Level-0 table #208: started
+2025/11/27-19:47:20.886683 7ee252f436c0 Level-0 table #208: 0 bytes OK
+2025/11/27-19:47:20.889570 7ee252f436c0 Delete type=0 #204
+2025/11/27-19:47:20.889633 7ee252f436c0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/11/27-20:47:20.887649 7ee252f436c0 Level-0 table #210: started
+2025/11/27-20:47:20.889474 7ee252f436c0 Level-0 table #210: 0 bytes OK
+2025/11/27-20:47:20.893352 7ee252f436c0 Delete type=0 #207
+2025/11/27-20:47:20.894441 7ee252f436c0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/11/27-21:47:20.888591 7ee252f436c0 Level-0 table #212: started
+2025/11/27-21:47:20.889506 7ee252f436c0 Level-0 table #212: 0 bytes OK
+2025/11/27-21:47:20.892970 7ee252f436c0 Delete type=0 #209
+2025/11/27-21:47:20.893044 7ee252f436c0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/11/27-22:47:20.885312 7ee252f436c0 Level-0 table #214: started
+2025/11/27-22:47:20.886198 7ee252f436c0 Level-0 table #214: 0 bytes OK
+2025/11/27-22:47:20.889674 7ee252f436c0 Delete type=0 #211
+2025/11/27-22:47:20.890377 7ee252f436c0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/11/27-23:47:20.890762 7ee252f436c0 Level-0 table #216: started
+2025/11/27-23:47:20.891466 7ee252f436c0 Level-0 table #216: 0 bytes OK
+2025/11/27-23:47:20.895064 7ee252f436c0 Delete type=0 #213
+2025/11/27-23:47:20.895495 7ee252f436c0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
