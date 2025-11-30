@@ -138,7 +138,7 @@ public class ContainerStateIterator extends
                 rcs.setWorkDir(asString(entry.getValue()));
             } else if (suffix.equals(CONTAINER_LOG_DIR_KEY_SUFFIX)) {
                 rcs.setLogDir(asString(entry.getValue()));
-            } else if (suffix.startsWith(CONTAINER_ASSIGNED_RESOURCES_KEY_SUFFIX)) {
+            } else if (suffix.startsWith(CONTAINER_ASSIGNED_RESOURCES_KEY_SUFFIX) || suffix.startsWith(CONTAINER_DIAGS_KEY_SUFFIX)) {
                 // skip
             } else {
                 System.out.println("the container " + containerId
