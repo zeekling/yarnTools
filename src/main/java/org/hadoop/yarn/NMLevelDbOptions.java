@@ -11,4 +11,6 @@ public class NMLevelDbOptions {
     private String levelDbPath;
 
     private boolean isContainer = false;
+
+    private boolean showDetail = false;
 }

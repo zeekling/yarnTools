@@ -7,7 +7,9 @@ public enum StateStoreOptions {
 
     LEVELDB_PATH(new Option("leveldb_path", true, "level path")),
 
-    CONTAINER(new Option("container", false, "container info")),;
+    CONTAINER(new Option("container", false, "container info")),
+
+    SHOW_DETAIL(new Option("detail", false, "show detail info"));
 
     private final Option option;
 

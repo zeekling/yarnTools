@@ -31,6 +31,7 @@ public class NodeManagerLevelDBTools {
         NMLevelDbOptions.NMLevelDbOptionsBuilder builder = NMLevelDbOptions.builder();
         builder.levelDbPath(commandLine.getOptionValue(StateStoreOptions.LEVELDB_PATH.getOption()));
         builder.isContainer(commandLine.hasOption(StateStoreOptions.CONTAINER.getOption()));
+        builder.showDetail(commandLine.hasOption(StateStoreOptions.SHOW_DETAIL.getOption()));
         return builder.build();
     }
 
@@ -56,6 +57,17 @@ public class NodeManagerLevelDBTools {
         System.out.println("======================end============================");
     }
 
+    private static void printContainerDetail(NMLevelDbOptions nmLevelDbOptions, LevelDBStateStore stateStore) {
+        List<RecoveredContainerState> allContainers = stateStore.getAllContainers();
+        System.out.println("=====================Containers Detail==============");
+        System.out.println("LevelDb path "+ nmLevelDbOptions.getLevelDbPath());
+        System.out.println("all containers " + allContainers.size());
+        for (RecoveredContainerState state: allContainers) {
+            System.out.println(state);
+        }
+        System.out.println("======================end============================");
+    }
+
     public static void main(String[] args) throws ParseException {
 
         NMLevelDbOptions nmLevelDbOptions = initNMLevelDbOptions(args);
@@ -66,6 +78,10 @@ public class NodeManagerLevelDBTools {
         String levelDbPath = nmLevelDbOptions.getLevelDbPath();
         LevelDBStateStore stateStore = new LevelDBStateStore(levelDbPath);
         if (nmLevelDbOptions.isContainer()) {
+            if (nmLevelDbOptions.isShowDetail()) {
+                printContainerDetail(nmLevelDbOptions, stateStore);
+                return;
+            }
             containerSummary(nmLevelDbOptions, stateStore);
             return;
         }

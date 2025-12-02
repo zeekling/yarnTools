@@ -37,18 +37,18 @@ public class RecoveredContainerState {
 
     @Override
     public String toString() {
-        return new StringBuilder("Status: ").append(getStatus())
+        return new StringBuilder("ContainerId: ").append(containerId)
+                .append(", Status: ").append(getStatus())
                 .append(", Exit code: ").append(exitCode)
                 .append(", Version: ").append(version)
                 .append(", Start Time: ").append(startTime)
                 .append(", Killed: ").append(getKilled())
-                .append(", Diagnostics: ").append(getDiagnostics())
                 .append(", Capability: ").append(getCapability())
-                .append(", StartRequest: ").append(getStartRequest())
                 .append(", RemainingRetryAttempts: ").append(remainingRetryAttempts)
                 .append(", RestartTimes: ").append(restartTimes)
                 .append(", WorkDir: ").append(workDir)
                 .append(", LogDir: ").append(logDir)
+                .append(", Diagnostics: ").append(getDiagnostics())
                 .toString();
     }
 
