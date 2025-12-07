@@ -12,5 +12,7 @@ public class NMLevelDbOptions {
 
     private boolean isContainer = false;
 
+    private boolean isApplication = false;
+
     private boolean showDetail = false;
 }
