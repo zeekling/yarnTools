@@ -9,6 +9,8 @@ public enum StateStoreOptions {
 
     CONTAINER(new Option("container", false, "container info")),
 
+    APPLICATION(new Option("app", false, "application info")),
+
     SHOW_DETAIL(new Option("detail", false, "show detail info"));
 
     private final Option option;
